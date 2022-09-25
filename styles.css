@@ -81,12 +81,13 @@ div.mark-all > p{
 main{
     display:flex;
     flex-direction:column;
-    gap:10px;
+    
 }
 
 div.item{
     display:flex;
     padding:10px;
+    Margin-top:10px;
     
     border-radius:10px;
 
