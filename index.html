@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    
+    <title>Frontend mentor | Notification page main</title>
+</head>
+<body>
+    <div class="accordion">
+        <header class="header">
+            <div class="title">
+                <h1 class="notifications">Notifications</h1>
+                <span id="number">3</span>
+            </div>
+            <div class="mark-all">
+                <p>Mark all as read.</p>
+            </div>
+        </header>
+
+
+
+        <main class="main">
+
+        
+            <div class="item unread">
+
+                <div class="image-avatar">
+                    <img src="assets/images/avatar-mark-webber.webp" alt="">
+                </div>
+
+
+                <div class="content">
+                    <div class="comment">
+                        <span class="name">Mark webber</span>
+                        reacted to your recent post <span class="post">My first tournament today! </span>
+                        <p class="pointer"></p>
+                    </div>
+                    <p class="time">1m ago</p>
+                    
+                </div>
+            </div>
+
+            <div class="item unread">
+                <div class="image-avatar">
+                    <img src="assets/images/avatar-angela-gray.webp" alt="">
+                </div>
+                <div class="content">
+                    <div class="comment">
+                        <span class="name">Angela Gray</span>
+                        followed you<span class="post"></span><p class="pointer"></p>
+                    </div>
+                    <p class="time">5m ago</p>
+                  
+                </div>
+            </div>
+
+            <div class="item unread">
+                <div class="image-avatar">
+                    <img src="assets/images/avatar-jacob-thompson.webp" alt="">
+                </div>
+                <div class="content">
+                    <div class="comment">
+                        <span class="name">Jacob Thompson</span>
+                        has joined your group <span class="post chess">Chess club</span>
+                        <p class="pointer"></p>
+                    </div>
+                    <p class="time">1 day ago</p>
+                    <p></p>
+                </div>
+            </div>
+
+            <div class="item read">
+                <div class="image-avatar">
+                    <img src="assets/images/avatar-rizky-hasanuddin.webp" alt="">
+                </div>
+                <div class="content item-message">
+                    <div class="comment ">
+                        <span class="name">Rizky Hassanudin</span>
+                        sent you a private message <span class="post"></span>
+                        <p class="pointer"></p>
+                    </div>
+                    <p class="time">5 days ago</p>
+                    <p id="message" class="">Hello, thanks for setting up the Chess Club. I've been a member for few weeks and I'm already having lots of fun and improving my game.</p>
+                </div>
+            </div>
+
+            <div class="item read " style="display:flex; justify-content:space-between">
+                <div class="testing">
+                <div class="image-avatar">
+                    <img src="assets/images/avatar-kimberly-smith.webp" alt="">
+                </div>
+                <div class="content commented">
+                    <div class="comment">
+                        <span class="name">Kimberly Smith</span>
+                        commented on your photo 
+                        <p class="time">1 week ago</p>
+                    </div>
+                </div>
+               
+                    
+                </div>
+                 <img src="assets/images/image-chess.webp" alt="" class="commented-img"><p class="pointer"></p>
+            </div>
+
+            <div class="item read">
+                <div class="image-avatar">
+                    <img src="assets/images/avatar-nathan-peterson.webp" alt="">
+                </div>
+                <div class="content">
+                    <div class="comment">
+                        <span class="name">Nathan Peterson</span>
+                        reacted to your recent post <span class="post">5 end-game strategies to increase your win-rate</span>
+                        <span><p class="pointer"></p></span>
+                    </div>
+                    <p class="time">5 days ago</p>
+                    
+                </div>
+            </div>
+            <div class="item read">
+                <div class="image-avatar">
+                    <img src="assets/images/avatar-anna-kim.webp" alt="">
+                </div>
+                <div class="content">
+                    <div class="comment">
+                        <span class="name">Ana Kim</span>
+                        left the group <span class="post chess">Chess club</span>
+                        <p class="pointer"></p>
+                    </div>
+                    <p class="time">5 days ago</p>
+                    
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
