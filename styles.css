@@ -22,8 +22,7 @@
 --Very-dark-blue: hsl(224, 21%, 14%);
 }
 body{
-    padding-top: 10%;
-  
+   
     font-family: 'Plus Jakarta Sans', sans-serif;
     background-color: var(--Light-grayish-blue-1);
     height:100vh;
@@ -42,7 +41,7 @@ div.accordion{
     box-shadow: -10px -10px 15px var(--Light-grayish-blue-2);
 }
 
-div.header{
+header{
     display:flex;
     justify-content:space-between;
     align-items: center;
@@ -79,7 +78,7 @@ div.mark-all > p{
     cursor:pointer;
 }
 
-div.main{
+main{
     display:flex;
     flex-direction:column;
     gap:10px;
