@@ -34,7 +34,7 @@ body{
 }
 
 div.accordion{
-    width:600px;
+    width:650px;
     max-width:70vw;
     background-color: white;
     padding:30px 35px;
@@ -123,10 +123,19 @@ p.pointer{
     background-color: red;
     border-radius: 50%;
     margin-left: 10px;
+    display:inline-block;
     
 }
 
+div.testing{
+    display:inline-flex;
+   
+}
 
+
+span.for-commented{
+    width:100px;
+}
 
 
 img{
@@ -136,23 +145,11 @@ img{
 }
 
 img.commented-img{
-    
-    position: absolute;
-    right:-20%;
-
+    width:50px;
+    height:50px;
 }
-
-div.comment{
-    
-}
-
-
-
 div.commented{
     position:relative;
-}
-div.image-avatar{
-  
 }
 
 span.name{
