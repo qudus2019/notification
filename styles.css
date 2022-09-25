@@ -190,7 +190,7 @@ p#message:hover{
     cursor:pointer;
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:650px) {
     div.accordion{
         max-width: 80vw;
        padding:20px;
@@ -201,8 +201,8 @@ p#message:hover{
         font-size: .85rem;
     }
 
-   h1{
-Font-size:1.3rem
+   h1.notifications{
+Font-size:1.4rem;
 }
 }
 
