@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap');
 *{
     padding:0;
     margin:0;
@@ -23,8 +24,7 @@
 body{
     padding-top: 10%;
   
-    font-family: helvetica;
-    font-size: ;
+    font-family: 'Plus Jakarta Sans', sans-serif;
     background-color: var(--Light-grayish-blue-1);
     height:100vh;
     display:flex;
