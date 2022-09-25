@@ -54,14 +54,14 @@ div.title{
     align-items: center;
 }
 
-p.notifications{
+h1.notifications{
     font-weight: 900;
-    font-size: 1.2rem;
+    font-size: 1.9rem;
     
 }
 
 span.name,
-p.notifications{
+h1.notifications{
     color:black;
 }
 
