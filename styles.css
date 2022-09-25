@@ -24,7 +24,7 @@
 body{
    
     font-family: 'Plus Jakarta Sans', sans-serif;
-    background-color: var(--Light-grayish-blue-1);
+    background-color: var(--Very-light-grayish-blue);
     height:100vh;
     display:flex;
     justify-content: center;
