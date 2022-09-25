@@ -89,7 +89,7 @@ div.item{
     padding:10px;
     Margin-top:10px;
     
-    border-radius:10px;
+    border-radius:15px;
 
 }
 
@@ -200,5 +200,9 @@ p#message:hover{
     div.content{
         font-size: .85rem;
     }
+
+   h1{
+Font-size:1.3rem
+}
 }
 
