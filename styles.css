@@ -21,6 +21,7 @@
 --Very-dark-blue: hsl(224, 21%, 14%);
 }
 body{
+    padding-top: 10%;
   
     font-family: helvetica;
     font-size: ;
@@ -36,7 +37,7 @@ div.accordion{
     width:600px;
     max-width:70vw;
     background-color: white;
-    padding:20px 35px;
+    padding:30px 45px;
     border-radius: 15px;
     box-shadow: -10px -10px 15px var(--Light-grayish-blue-2);
 }
@@ -109,7 +110,7 @@ div.content{
     display:flex;
     flex-direction:column;
     justify-content: center;
-    font-size: 14px;
+    font-size: 15px;
 }
 
 div.read p.pointer{
@@ -160,7 +161,7 @@ span.name{
 
 p#message{
    
-    outline:1px solid black;
+    outline:1px solid var(--Grayish-blue);
     padding:11px;
     border-radius: 7px;
 }
